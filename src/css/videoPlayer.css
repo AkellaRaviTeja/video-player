@@ -1,0 +1,56 @@
+
+div.video-player {
+    position : absolute;
+}
+
+div.video-player--topLeft {
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+div.video-player--topRight {
+    position: fixed;
+    top:0;
+    right:0;
+}
+
+div.video-player--bottomLeft {
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+div.video-player--bottomRight {
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
+
+div.video-player__header {
+    background-color: #4a4b4c;
+}
+
+div.video-player__header-controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+}
+
+div.video-player__footer {
+    background-color: #4a4b4c;
+}
+
+div.video-player__footer-controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+}
+
+.double-flex {
+    flex-grow:2;
+}
+

@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AkellaRaviTeja/video-player/issues"
   },
-  "homepage": "https://github.com/AkellaRaviTeja/video-player#readme"
+  "homepage": "https://github.com/AkellaRaviTeja/video-player#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.1"
+  }
 }
